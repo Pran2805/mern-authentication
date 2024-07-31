@@ -1,24 +1,24 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {createBrowserRouter, RouterProvider} from "react-router-dom"
-import Signin from './pages/SignIn/SignIn.jsx'
-import LogIn from './pages/Login/Login.jsx'
+import SignIn from './pages/Signin/SignIn.jsx'
+import Login from './pages/Login/Login.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     children:[{
       path: "",
-      element: <LogIn />
+      element: <Login />
     },{
       path: "/",
-      element: <LogIn/>
+      element: <Login/>
     },{
       path: "signin",
-      element: <Signin />
+      element: <SignIn />
     },{
       path: "login",
-      element: <LogIn />
+      element: <Login />
     }
   ]
   }

@@ -5,7 +5,6 @@ import eye from "../assets/eye.png";
 import eyeC from "../assets/eyeC.png";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
-import LogIn from "../LogInPage/LogIn";
 
 function SignIn() {
   const [email, setEmail] = useState("");
